@@ -17,3 +17,5 @@ opentelemetry-otlp = { version = "0.29.0", features = ["tonic", "grpc-tonic"] }
 opentelemetry = "0.29.1"
 opentelemetry_sdk = { version = "0.29.0", features = ["rt-tokio", "experimental_trace_batch_span_processor_with_async_runtime"] }
 tracing-opentelemetry = "0.30.0"
+derive_builder = "0.20.2"
+chrono = "0.4.40"
