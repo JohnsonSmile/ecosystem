@@ -18,6 +18,9 @@ opentelemetry = "0.29.1"
 opentelemetry_sdk = { version = "0.29.0", features = ["rt-tokio", "experimental_trace_batch_span_processor_with_async_runtime"] }
 tracing-opentelemetry = "0.30.0"
 derive_builder = "0.20.2"
-chrono = "0.4.40"
+chrono = { version = "0.4.40", features = ["serde"] }
 derive_more = { version = "2.0.1", features = ["add", "display", "from", "into"] }
 strum = { version = "0.27.1", features = ["derive"] }
+b64 = "0.4.0"
+base64 = "0.22.1"
+serde_with = "3.12.0"
