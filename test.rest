@@ -1,2 +1,12 @@
-# index
+### get user
 GET http://localhost:8080/
+
+
+### patch user
+PATCH http://localhost:8080/
+Content-Type: application/json
+
+{
+  "age": 19,
+  "name": "李四"
+}
