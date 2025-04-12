@@ -110,7 +110,7 @@ struct UserUpdate {
 async fn main() -> Result<()> {
     let console = fmt::Layer::new().pretty().with_filter(LevelFilter::DEBUG);
     tracing_subscriber::registry().with(console).init();
-    let addr = SocketAddr::from(([127, 0, 0, 1], 8080));
+    let addr = SocketAddr::from(([0, 0, 0, 0], 8080));
     let listener = TcpListener::bind(addr).await?;
     info!("listening on {}", addr);
     let user = User {

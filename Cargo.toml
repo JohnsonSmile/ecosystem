@@ -8,7 +8,7 @@ anyhow = "1.0.97"
 thiserror = "2.0.12"
 serde = { version = "1.0.219", features = ["derive"] }
 serde_json = "1.0.140"
-tokio = { version = "1.44.1", features = ["rt", "rt-multi-thread", "macros"] }
+tokio = { version = "1.44.1", features = ["rt", "rt-multi-thread", "macros", "fs"] }
 axum = { version = "0.8.3", features = ["http2", "query", "tracing"] }
 tracing = "0.1.41"
 tracing-subscriber = { version = "0.3.19", features = ["env-filter"] }
@@ -25,3 +25,4 @@ b64 = "0.4.0"
 base64 = "0.22.1"
 serde_with = "3.12.0"
 bytes = "1.10.1"
+blake3 = "1.8.1"
