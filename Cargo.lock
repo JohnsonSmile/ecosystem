@@ -336,6 +336,7 @@ dependencies = [
  "axum",
  "b64",
  "base64",
+ "bytes",
  "chrono",
  "derive_builder",
  "derive_more",
