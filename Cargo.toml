@@ -31,3 +31,6 @@ tokio-stream = "0.1.17"
 tokio-util = { version = "0.7.15", features = ["codec"] }
 features = "0.10.0"
 futures = "0.3.31"
+sqlx = { version = "0.8.5", features = ["postgres", "runtime-tokio", "tls-rustls"] }
+log = "0.4.27"
+nanoid = "0.4.0"
